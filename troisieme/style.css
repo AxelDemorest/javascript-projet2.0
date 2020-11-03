@@ -81,7 +81,7 @@ body{
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1;
     width: 54%;
     height: 80%;
@@ -95,4 +95,10 @@ body{
   
   .container:hover .overlay {
     opacity: 1;
+  }
+
+  .platforme{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
   }
