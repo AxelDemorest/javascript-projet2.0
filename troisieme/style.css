@@ -1,6 +1,5 @@
 body{
-    background-image: url(images/R6.jpeg);
-    height: 50%;
+    background-image: url(images/R66.jpeg);
 }
 
 .titre{
@@ -29,8 +28,8 @@ body{
     height: 350px;
     width: 350px;
     border-radius: 0px;
-    border: 2px solid gray;
-    color: black;
+    border: 2px solid whitesmoke;
+    color: white;
 }
 
  
