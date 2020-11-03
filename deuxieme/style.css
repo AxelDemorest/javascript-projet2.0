@@ -1,19 +1,48 @@
-body{
+/*body{
     background-image: url(img/Seattle.jpg);
+}
+*/
+
+body,html{
+    padding:0;
+    margin:0;
 }
 
 h1{
     display: flex;
     justify-content: center;
     font-size: 47px;
+    z-index: 2;
 }
 
 .video{
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 .resume{
     display: flex;
     justify-content: center;
+    z-index: 2;
+}
+
+.d1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 10s ease-in-out infinite both;
+    z-index: 1;
+}
+
+.d1:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    0%{background-image: url(img/SeattleCenter.jpeg);}
+    33.33%{background-image: url(img/Ville.jpg);}
+    66.67%{background-image: url(img/Scar.jpg);}
+    100%{background-image: url(img/JacksonVille.jpg);}
 }
