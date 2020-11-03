@@ -48,3 +48,16 @@ body{
     justify-content: space-around;
 }
 
+.tab3{
+    display: flex;  
+    justify-content: center;
+}
+
+.info_jeu{
+    display: flex;
+    align-items: flex-end;
+    width:400px;
+    height:200px;
+    border-radius: 0px;
+    border: 2px solid whitesmoke;
+}
