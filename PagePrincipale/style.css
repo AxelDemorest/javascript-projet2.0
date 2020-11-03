@@ -35,7 +35,7 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60%;
+    height: 50%;
 }
 
 .middleTitle h1 {
@@ -51,6 +51,26 @@ header a:hover {
     font-size: 2em;
 }
 
+.author {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.author div {
+    background-color: #232323;
+    max-width: 30em;
+    margin: 1em 5em 2em;
+    border: 10px solid #2C3E7F;
+    overflow: hidden;
+    padding: 0.2em 2em;
+    border: 2px solid #2C3E7F;
+    border-radius: 5px;
+    color: white;
+}
+
 .gameAccess {
     display: flex;
     flex-direction: row;
@@ -64,4 +84,15 @@ header a:hover {
     border: 5px solid #2C3E7F;
     border-radius: 0.3em;
 }
+
+.gameAccess img:hover {
+    filter: grayscale(1);
+}
+
+.game1 p {
+    color: white;
+    position: absolute;
+}
+
+
 
