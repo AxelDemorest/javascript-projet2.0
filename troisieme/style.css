@@ -1,0 +1,42 @@
+body{
+    background-image: url(images/R6.jpeg);
+    height: 50%;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+.resume,.avantage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+ 
+.resume h2 ,.avantage h2{
+    text-align: center;
+}
+
+.resume p ,.avantage p{
+    padding: 3px 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.resume_note, .avantage_note{
+    background-color: transparent;
+    height: 350px;
+    width: 350px;
+    border-radius: 0px;
+    border: 2px solid gray;
+    color: black;
+}
+
+ 
+.separation{
+    background-color: gray;
+    border: none;
+    padding: 1px;
+    width: 100%;
+}
