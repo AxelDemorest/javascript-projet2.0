@@ -7,23 +7,22 @@ body{
     justify-content: center;
 }
 
-.resume,.avantage{
+.resume,.avantage,.point_faible{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+
 }
  
-.resume h2 ,.avantage h2{
-    text-align: center;
+.resume h2 ,.avantage h2, .point_faible h2{
+    text-align: center; 
 }
 
-.resume p ,.avantage p{
+.resume p ,.avantage p, .point_faible p{
     padding: 3px 10px;
     line-height: 30px;
     text-align: center;
 }
 
-.resume_note, .avantage_note{
+.resume_note, .avantage_note,.point_faible_note{
     background-color: transparent;
     height: 350px;
     width: 350px;
@@ -39,3 +38,12 @@ body{
     padding: 1px;
     width: 100%;
 }
+
+.tab2{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
