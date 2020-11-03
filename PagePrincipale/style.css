@@ -71,21 +71,21 @@ header a:hover {
     color: white;
 }
 
-.gameAccess {
+#gameAccess {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 30%;
 }
 
-.gameAccess img {
+#gameAccess img {
     width: 25%;
     height: 90%;
     border: 5px solid #2C3E7F;
     border-radius: 0.3em;
 }
 
-.gameAccess img:hover {
+#gameAccess img:hover {
     filter: grayscale(1);
 }
 
