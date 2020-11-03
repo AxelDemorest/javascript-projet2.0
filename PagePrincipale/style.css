@@ -5,30 +5,63 @@ body {
     font-family: "MontSerrat";
 }
 
+.container{
+    height: 100vh;
+}
+
 header {
     display: flex;
     flex-direction: row;
-    padding: 1em;
-}
-
-header .header_right {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
 }
 
 header a {
-    margin: 0 1em;;
-    padding: 0.2em 2em;
     text-decoration: none;
     color: white;
     font-size: 1.2em;
     background-color: #2C3E7F;
     border-radius: 2em;
+    padding: 0.3em 1em;
 }
 
 header a:hover {
     text-decoration: underline;
 }
 
+.middleTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.middleTitle h1 {
+    font-size: 3.5em;
+    color: white;
+    background-color: #2C3E7F;
+    border-radius: 2em;
+    padding: 0.3em 1em;
+}
+
+.descriptionTitle {
+    color: white;
+    font-size: 2em;
+}
+
+.gameAccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30%;
+}
+
+.gameAccess img {
+    width: 25%;
+    height: 90%;
+    border: 5px solid #2C3E7F;
+    border-radius: 0.3em;
+}
 
