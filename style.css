@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/game.jpg");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+header .header_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
