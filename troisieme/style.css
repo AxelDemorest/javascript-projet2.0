@@ -5,6 +5,7 @@ body{
 .titre{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .resume,.avantage,.point_faible{
