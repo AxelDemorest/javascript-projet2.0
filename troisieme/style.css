@@ -60,6 +60,7 @@ body{
 .info_jeu{
     display: flex;
     align-self: flex-end;
+    justify-content: space-between;
     width:60%;
     height:200px;
     border-radius: 0px;
@@ -85,7 +86,7 @@ body{
     color: #f1f1f1;
     width: 54%;
     height: 80%;
-    transition: .5s ease;
+    transition: .3s ease;
     opacity:0;
     color: white;
     font-size: 20px;
@@ -99,7 +100,19 @@ body{
 
   .platforme{
       display: flex;
-      flex-direction: column;
-      margin-left: 80px;
-      
+      flex-direction: column;      
   }
+.bout{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.bouton{
+    display: flex;
+    width: 70px;
+    height: 25px;
+}
