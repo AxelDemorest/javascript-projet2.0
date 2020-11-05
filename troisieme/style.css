@@ -100,7 +100,8 @@ body{
 
   .platforme{
       display: flex;
-      flex-direction: column;      
+      flex-direction: column;
+      margin-right: 230px;      
   }
 .bout{
     height: 100%;
@@ -212,4 +213,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
-    
+
+.Btn1{
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 25px;
+}   
