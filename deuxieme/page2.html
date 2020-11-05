@@ -9,23 +9,44 @@
 </head>
 
 <body>
-    <div class="d1" >
-    <header>
-        <H1>The Last of us II</H1>
-    </header>
-    <div class="video">
-        <video src="img/TLOS24K.mp4" width=300  height=260 controls> </video>
-    </div>
+    <div class="d1">
 
-    <div class="resume">
-        <p>The Last of us part II est un jeu vidéo d'action aventure dans un monde post-apocaliptique,<br>
-            vue a la troisième personne de type survival horror.<br>
-            Il est développé par Naughty Dog et édité par Sony Interactive Entertaiment sur Playstation 4,<br>
-            sorti le 19 juin 2020. Annoncé officiellement le 3 Décembre 2016, il fait suite au jeu The Last of us sorti par le
-            meme editeur.</p>
-    </div>
+        <header class="head">
+            <button class="openbtn" onclick="openNav()">☰ Menu Zebi</button>
+            <h1 id="titre">The Last of us II</h1>
+        </header>
+        <div class="video2">
+            <video id="video" src="img/TLOS24K.mp4" width=200 height=200 controls> </video>
+        </div>
 
-    </div>
+        <div class="box">
+            <div class="resume">
+                <p>The Last of us part II est un jeu vidéo d'action aventure dans un monde post-apocaliptique,<br>
+                    vue a la troisième personne de type survival horror.<br>
+                    Il est développé par Naughty Dog et édité par Sony Interactive Entertaiment sur Playstation
+                    4,<br>
+                    sorti le 19 juin 2020. Annoncé officiellement le 3 Décembre 2016, il fait suite au jeu The Last
+                    of
+                    us sorti par le
+                    meme editeur.</p>
+            </div>
+<!--           <button class="Btn1" name="btn1" type="button"> next </button>  -->
+        </div>
 
-<script src="script.js"></script>  
+
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="../PagePrincipale/index.html">Page d'acceuille </a>
+            <a href="../troisieme/page3.html">RaimbowSix Siege</a>
+            <a href="../deuxieme/page2.html">The Last of us II</a>
+            <a href="#">Diep.io</a>
+        </div>
+
+        <div class="icones">
+            <img class="img2" src="img/4k-fullhd.png">
+            <img class="img3" src="img/video-game-console-with-gamepad.png">
+        </div>
+
+        <script src="script.js"></script>
 </body>

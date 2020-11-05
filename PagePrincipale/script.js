@@ -75,8 +75,20 @@ function submitForm() {
     localStorage.setItem('pseudo', inputName.value);
 }
 
+const decoButton = document.getElementById('deconnexionButton');
+
 if(button.textContent = "Se connecter" && localStorage.getItem('pseudo')) {
     button.textContent = "Connecté en tant que : " + localStorage.getItem('pseudo');
+    decoButton.style.display = "block";
 } else {
     button.textContent = "Se connecter";
+}
+
+decoButton.addEventListener('click', decoClick);
+
+function decoClick() {
+
+    localStorage.clear('pseudo');
+
+    location.reload();
 }
