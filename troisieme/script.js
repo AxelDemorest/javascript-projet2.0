@@ -1,4 +1,4 @@
-alert("Bienvenue sur mon site passer un bon moment")
+alert("Bienvenue sur notre page passer un bon moment")
 
 
 
