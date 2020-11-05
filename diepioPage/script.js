@@ -6,12 +6,12 @@ const btn = document.getElementById("myBtn");
 btn.addEventListener('click', videoFunction)
 
 function videoFunction() {
-    if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
+    if (video.paused) { //Si la vidéo est en pause
+        video.play(); //La vidéo est en cours
+        btn.innerHTML = "Pause"; //le contenu du bouton devient "Pause"
     } else {
-        video.pause();
-        btn.innerHTML = "Play";
+        video.pause(); //la vidéo se met en pause
+        btn.innerHTML = "Play"; //le contenu du bouton devient "play"
     }
 }
 
@@ -21,7 +21,7 @@ const textDiep = document.getElementById("textDiep");
 
 btnNote.addEventListener('click', noteFunction)
 
-function noteFunction() {
+function noteFunction() { //Ici je change les valeurs du <p> avec un bouton et je change la taille de la police du <p> en question
     if (btnNote.textContent === "Clique ici") {
         btnNote.innerHTML = "Descriptif du jeu";
         textDiep.innerHTML = "Je donne la note de 15/20 car c'est un jeu assez addictif et drôle. C'est un jeu qui peut se jouer entre amis et avec des équipes, j'y ai beaucoup joué et ça m'a vraiment plu.";
