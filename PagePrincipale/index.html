@@ -12,9 +12,9 @@
 
     <div class="container">
         <header>
-            <a href="https://example.com">Accueil</a>
-            <a href="https://example.com">Contact</a>
-            <a href="https://example.com">Se connecter</a>
+            <button>Accueil</button>
+            <button>Contact</button>
+            <button id="connectedButton"></button>
         </header>
 
         <div class="middleTitle">
@@ -23,45 +23,48 @@
         </div>
 
         <div class="author">
-            <button onclick="document.getElementById('id01').style.display='block'">Clique ici</button>
-            <button>Clique ici</button>
-            <button>Clique ici</button>
+            <button id="img1">Clique ici</button>
+            <button id="img2">Clique ici</button>
+            <button id="img3">Clique ici</button>
         </div>
 
         <div id="gameAccess">
-            <img class="imgAccess" id="img1" src="./img/tlou.jpg">
-            <img class="imgAccess" id="img2" src="./img/r6.jpg">
-            <img class="imgAccess" id="img3" src="./img/diepio.png">
+            <img class="imgAccess" src="./img/tlou.jpg">
+            <img class="imgAccess" src="./img/r6.jpg">
+            <img class="imgAccess" src="./img/diepio.png">
         </div>
 
         <div id="id01" class="modal">
-  
-            <form class="modal-content animate" action="/action_page.php" method="post">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <h1 class="avatar">Login</h1>
-              </div>
-          
-              <div class="containerForm">
-                <label class="label" for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-          
-                <label class="label" for="psw"><b>Email</b></label>
-                <input type="email" placeholder="Enter Email" name="psw" required>
-                  
-                <button type="submit">Login</button>
-                <label class="label">
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-              </div>
-          
-              <div class="containerForm">
-                  <div class="cancelbtndiv"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></div>
-              </div>
-            </form>
-          </div>
 
-    <script src="script.js"></script>
+            <form class="modal-content animate" id="formID" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <h1 class="avatar">Login</h1>
+                </div>
+
+                <div class="containerForm">
+                    <label class="label" for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="inputName" required>
+
+                    <label class="label" for="psw"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="psw" id="inputEmail" required>
+
+                    <button id="submitButton" type="submit">Login</button>
+                    <label class="label">
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="containerForm">
+                    <div class="cancelbtndiv"><button type="button"
+                            onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button></div>
+                </div>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
 
 </body>
 
