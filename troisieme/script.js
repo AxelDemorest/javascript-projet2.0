@@ -1,3 +1,8 @@
+alert("Bienvenue sur mon site passer un bon moment")
+
+
+
+
 var slideIndex = 0;
 showSlides();
 
