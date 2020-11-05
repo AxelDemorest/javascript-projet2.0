@@ -1,9 +1,9 @@
-const img = document.getElementsByClassName('imgAccess');
+// Get the modal
+var modal = document.getElementById('id01');
 
-img.addEventListener('click', imgClicked());
-
-function imgClicked() {
-    console.log('coucou')
-    document.location.href="https://www.apple.com"
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
-

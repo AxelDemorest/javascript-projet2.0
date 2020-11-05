@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>News Games</title>
 </head>
+
 <body>
 
     <div class="container">
         <header>
-                <a href="https://example.com">Accueil</a>
-                <a href="https://example.com">Contact</a>
-                <a href="https://example.com">Se connecter</a>
+            <a href="https://example.com">Accueil</a>
+            <a href="https://example.com">Contact</a>
+            <a href="https://example.com">Se connecter</a>
         </header>
-    
+
         <div class="middleTitle">
             <h1>Game'scription</h1>
             <div class="descriptionTitle">Retrouve les derniers jeux sur notre site web !</div>
         </div>
 
         <div class="author">
-            <div>Réalisé par Angel</div>
-            <div>Réalisé par Merwan</div>
-            <div>Réalisé par Axel</div>
+            <button onclick="document.getElementById('id01').style.display='block'">Clique ici</button>
+            <button>Clique ici</button>
+            <button>Clique ici</button>
         </div>
 
         <div id="gameAccess">
@@ -31,9 +33,36 @@
             <img class="imgAccess" id="img2" src="./img/r6.jpg">
             <img class="imgAccess" id="img3" src="./img/diepio.png">
         </div>
-    </div>
+
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <h1 class="avatar">Login</h1>
+              </div>
+          
+              <div class="containerForm">
+                <label class="label" for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label class="label" for="psw"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="psw" required>
+                  
+                <button type="submit">Login</button>
+                <label class="label">
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="containerForm">
+                  <div class="cancelbtndiv"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></div>
+              </div>
+            </form>
+          </div>
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
