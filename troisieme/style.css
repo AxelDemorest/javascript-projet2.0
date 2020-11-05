@@ -68,7 +68,7 @@ body{
 }
 
 .image{
-    height: 200px;
+    height: 195px;
     width: 202px;
 }
 .container {
@@ -84,8 +84,8 @@ body{
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1;
-    width: 54%;
-    height: 80%;
+    width: 67%;
+    height: 100%;
     transition: .3s ease;
     opacity:0;
     color: white;
@@ -207,3 +207,9 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.transfert{
+    display: flex;
+    justify-content: space-around;
+}
+    
